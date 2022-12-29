@@ -4,7 +4,7 @@ import AntDesign from 'react-native-vector-icons/AntDesign';
 
 export default function RestaurantItem() {
   return (
-    <TouchableOpacity activeOpacity={1} style={{marginBottom: 30}}>
+    <TouchableOpacity style={{marginBottom: 30}}>
       <View style={{padding: 10, marginTop: 10, backgroundColor: '#fff'}}>
         <RestaurantImage />
         <RestaurantInfo />
